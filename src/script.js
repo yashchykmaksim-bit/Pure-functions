@@ -1,6 +1,6 @@
 const player = {name: 'Маг', health: 90};
 
-export function healthPlayer(player) {
+export default function healthPlayer(player) {
   if (player.health > 50) {
     return "healthy";
   } else if (player.health <= 50 && player.health >= 15) {
