@@ -1,5 +1,3 @@
-const player = {name: 'Маг', health: 90};
-
 export default function healthPlayer(player) {
   if (player.health > 50) {
     return "healthy";
